@@ -1,0 +1,49 @@
+/* Styling for the title */
+.title {
+    color: antiquewhite;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px; /* Adds space from the top */
+}
+
+/* Styling for the form */
+form {
+    background-color: antiquewhite;
+    height: 350px; /* Increase height for more space */
+    width: 300px; /* Increase width for better form layout */
+    margin: 50px auto; /* Centers the form on the page */
+    padding: 20px; /* Adds spacing inside the form */
+    border-radius: 8px; /* Rounded corners for a soft look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Adding spacing between form fields */
+form input,
+form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+form button {
+    background-color: #ff6347; /* A nice color for the button */
+    color: white;
+    margin-left: 50px;
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #ff4500; /* Darker shade on hover */
+}

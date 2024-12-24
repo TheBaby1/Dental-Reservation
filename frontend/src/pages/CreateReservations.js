@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { createReservations } from '../services/reservationService';
 import Navbar from '../components/Navbar.js';
+import '../components/createReservation.css';
 
 const CreateReservations = () => {
     const [formData, setFormData] = useState({
@@ -34,7 +35,7 @@ const CreateReservations = () => {
         <Navbar></Navbar>
 
         <div>
-            <h1>Create a New Reservation</h1>
+            <h1 className="title">Create a New Reservation</h1>
             <form onSubmit={handleSubmit}>
                 <label>
                     Name: 

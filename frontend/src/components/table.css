@@ -1,0 +1,54 @@
+/* Table Styling */
+table {
+    width: 70%; /* Increase table width for a more spacious look */
+    margin: 30px auto;
+    border-collapse: collapse;
+    border-radius: 10px; /* Rounded corners for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Header Styling */
+th {
+    background-color: #007bff; /* A better color for the header */
+    color: white; /* Text color for the header */
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    border-top-left-radius: 10px; /* Rounded top-left corner */
+    border-top-right-radius: 10px; /* Rounded top-right corner */
+}
+
+/* Table Data Styling */
+th, td {
+    border: 1px solid #ddd; /* Softer border for a modern look */
+    padding: 12px;
+    text-align: left;
+}
+
+/* Alternating row colors for better readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey color for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White color for odd rows */
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1; /* Slightly darker background on hover */
+}
+
+/* Adding a subtle border around the table */
+table {
+    border: 2px solid #007bff; /* Adding a solid border around the table */
+}
+
+/* Add bottom rounded corners */
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}

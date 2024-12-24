@@ -1,0 +1,41 @@
+/* Base button styles */
+button {
+    padding: 8px 15px; /* Better padding for a balanced look */
+    height: auto; /* Automatically adjust height based on content */
+    width: auto; /* Allow width to adapt to text */
+    margin-top: 10px;
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Smooth rounded corners */
+    font-size: 16px; /* Slightly larger text for readability */
+    color: white; /* Text color for better contrast */
+    cursor: pointer; /* Pointer cursor for better UX */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Delete button styles */
+.delete {
+    background-color: #ff4d4d; /* Softer red */
+    border-radius: 8px;
+}
+
+/* Hover effect for delete button */
+.delete:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+
+/* Update button styles */
+.update {
+    background-color: #4caf50; /* Softer green */
+    border-radius: 8px;
+}
+
+/* Hover effect for update button */
+.update:hover {
+    background-color: #3d8c40; /* Darker green on hover */
+}
+
+/* Add subtle box shadow to all buttons */
+button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+

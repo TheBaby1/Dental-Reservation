@@ -40,3 +40,10 @@
 ul li {
   list-style-type: none;
 }
+
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  font-family: Arial, sans-serif; /* Set a global font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
